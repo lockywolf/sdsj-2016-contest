@@ -1,3 +1,8 @@
 This project (tutorial-finmath) is just a group of unrelated files used to study financial mathematics.
 
 TODO: Write a good README.
+
+Run the project by running python myRun.py
+
+Run tests by running
+    python -m unittest discover -s test -p "test*.py"
