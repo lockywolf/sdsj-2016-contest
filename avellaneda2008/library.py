@@ -10,6 +10,11 @@ class FinMath(object):
     def __init__(self):
         print("library.py: mylibraryfunctionobject init: my name is " + __name__)
 
+    def foo(self):
+        return 2+3
+
+
+
     @property
     def return_true(self):
         return True
