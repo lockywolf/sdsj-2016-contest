@@ -11,15 +11,12 @@ class FinMath(object):
         print("library.py: mylibraryfunctionobject init: my name is " + __name__)
 
     def foo(self):
-        return 2+3
-
-
+        return 2 + 3
 
     @property
     def return_true(self):
         return True
 
+
 if __name__ == "__main__":
     print("I am from the avellaneda2008 package, but I am executed as a script and my name is: " + __name__)
-
-
