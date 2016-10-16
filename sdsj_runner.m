@@ -1,1 +1,1 @@
-A = sdsj_basic()
+A = SdsjBasic
