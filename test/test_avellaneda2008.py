@@ -1,8 +1,8 @@
 import unittest
-from avellaneda2008 import library
+from sdsj import library
 
 
-class TestAvellaneda2008(unittest.TestCase):
+class TestSdsj(unittest.TestCase):
     def setUp(self):
         pass
 

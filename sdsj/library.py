@@ -19,4 +19,4 @@ class FinMath(object):
 
 
 if __name__ == "__main__":
-    print("I am from the avellaneda2008 package, but I am executed as a script and my name is: " + __name__)
+    print("I am from the sdsj package, but I am executed as a script and my name is: " + __name__)
