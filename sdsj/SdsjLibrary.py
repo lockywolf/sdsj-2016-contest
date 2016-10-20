@@ -8,9 +8,11 @@ class FinMath(object):
     pass  # Doesn't do anything, but reminds the syntax.
 
     def __init__(self):
-        print("library.py: mylibraryfunctionobject init: my name is " + __name__)
+        print("SdsjLibrary.py: mylibraryfunctionobject init: my name is " + __name__)
 
-    def foo(self):
+    @staticmethod
+    def foo():
+
         return 2 + 3
 
     @property
