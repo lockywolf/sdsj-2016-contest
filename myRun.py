@@ -1,10 +1,12 @@
 # coding=utf-8
 u""" Default run file.
 """
-from sdsj import SdsjLibrary
 import csv
-import numpy as np
+
+from sdsj import SdsjLibrary
+
 try:
+    # noinspection PyCompatibility
     from StringIO import StringIO
 except ImportError:
     from io import StringIO
